@@ -139,7 +139,7 @@
   color-scheme: dark;
   --bs-body-color: #adb5bd;
   --bs-body-color-rgb: 173, 181, 189;
-  --bs-body-bg: #212529;
+  --bs-body-bg: #000000;
   --bs-body-bg-rgb: 33, 37, 41;
   --bs-emphasis-color: #fff;
   --bs-emphasis-color-rgb: 255, 255, 255;
@@ -15525,7 +15525,7 @@ img.lazy:not([src]) {
   position: relative;
   border-bottom: var(--cnvs-topbar-border-size) solid var(--cnvs-topbar-border-color);
   font-size: var(--cnvs-topbar-font-size);
-  background-color: var(--cnvs-topbar-bg);
+  background-color: black;
 }
 
 /* Top Links
@@ -34125,7 +34125,7 @@ img.mfp-img {
 	Dark Scheme - sass/dark.scss
 -----------------------------------------------------------------------------------*/
 .dark {
-  --cnvs-contrast-bg: #212529;
+  --cnvs-contrast-bg: black;
   --cnvs-contrast-bg-offset: #343a40;
   --cnvs-contrast-0: #000;
   --cnvs-contrast-100: #212529;

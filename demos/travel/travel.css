@@ -15,7 +15,7 @@
 }
 
 :root {
-	--cnvs-themecolor: #AC4147;
+	--cnvs-themecolor: black;
 	--cnvs-themecolor-rgb: 172, 65, 71;
 
 	--cnvs-primary-font: 'Poppins', sans-serif;
@@ -47,21 +47,21 @@ h1, h2, h3, h4 {
 
 	#top-bar {
 		z-index: 399;
-		border-bottom-color: rgba(0, 0, 0, 0.05);
+		border-bottom-color: rgb(0, 0, 0);
 	}
 
 	#top-bar.dark {
-		border-bottom-color: rgba(255,255,255, 0.05);
+		border-bottom-color: rgb(0, 0, 0);
 	}
 
 	.top-links-item,
 	#top-social li {
-		border-left-color: rgba(0, 0, 0, 0.05);
+		border-left-color: rgb(0, 0, 0);
 	}
 
 	.dark .top-links-item,
 	.dark #top-social li {
-		border-left-color: rgba(255,255,255, 0.05);
+		border-left-color: rgba(0, 0, 0, 0.938);
 	}
 
 	#top-bar.transparent-topbar { background: transparent !important; }
@@ -70,7 +70,7 @@ h1, h2, h3, h4 {
 
 .dark .top-links-item > a { color: #EEE; }
 
-.dark .top-links-item:hover { background-color: rgba(255,255,255,0.15); }
+.dark .top-links-item:hover { background-color: rgb(0, 0, 0); }
 
 .dark #top-social li { border-left: 0; }
 
@@ -155,7 +155,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-overlay-open 
 
 
 .footer-big-contacts {
-	color: #333;
+	color: black;
 	font-size: 24px;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -166,7 +166,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-overlay-open 
 	font-size: 11px;
 	font-weight: 400;
 	text-transform: uppercase;
-	color: #888;
+	color: black;
 	letter-spacing: 2px;
 }
 
